@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To-Do List App</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1>To-Do List App</h1>
+        <div class="content">
+            <div class="lists">
+                <h2>My Lists</h2>
+                <ul>
+                    <li class="active">Youtube</li>
+                    <li>Work</li>
+                    <li>Grocery</li>
+                    <i class="fa-solid fa-plus fa-sm"></i>
+                    <input type="text" placeholder="new list name">
+                </ul>
+            </div>
+            <div class="list">
+                <div class="title">
+                    <h2>Youtube</h2>
+                    <p>3 items remaining</p>
+                </div>
+                <form action="">
+                    <div class="task">
+                        <input type="checkbox" id="one">
+                        <label for="one">
+                            <span></span>
+                            record todo list video
+                        </label>
+                    </div>
+                    <div class="task">
+                        <input type="checkbox" id="two">
+                        <label for="two">
+                            <span></span>
+                            another task
+                        </label>
+                    </div>
+                    <div class="task">
+                        <input type="checkbox" id="three">
+                        <label for="three">
+                            <span></span> 
+                            another task
+                        </label>
+                    </div>
+                    <i class="fa-solid fa-plus fa-sm"></i>
+                    <input type="text" placeholder="new task name"> 
+                </form>
+                <div class="btns">
+                    <button>clear completed tasks</button>
+                    <button>Delete list</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
